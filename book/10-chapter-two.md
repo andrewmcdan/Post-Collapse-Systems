@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Chapter Two: The First Month - Finding Stability in Chaos
+permalink: /book/10-chapter-two/
+prev: /book/00-frontmatter/
+prev_title: Front Matter
+next: /book/20-chapter-three/
+next_title: Chapter Three: The First Three Months - Organizing the Group
 ---
 
 ### Chapter Two: The First Month - Finding Stability in Chaos {#chapter-two:-the-first-month---finding-stability-in-chaos}
@@ -212,9 +217,9 @@ Each person should carry:
 
 ### B. Bag Considerations for Different Mobility Levels {#b.-bag-considerations-for-different-mobility-levels}
 
-1. Full Bug-Out Bag (BOB) - 40+ lbs: Best for extended movement. More supplies, but heavy and slower to carry.  
-2. Get-Home Bag (GHB) - 15-20 lbs: Ideal for short-term survival, if mobility is a priority.  
-3. Everyday Carry (EDC) Kit - Under 5 lbs: A small emergency kit always kept on you.  
+1. Full Bug-Out Bag (BOB) - 40+ lbs: Best for extended movement. More supplies, but heavy and slower to carry.
+2. Get-Home Bag (GHB) - 15-20 lbs: Ideal for short-term survival, if mobility is a priority.
+3. Everyday Carry (EDC) Kit - Under 5 lbs: A small emergency kit always kept on you.
 
 If forced to move suddenly, you need to grab your gear and go. A pre-packed, ready-to-carry survival kit can mean the difference between life and death.
 

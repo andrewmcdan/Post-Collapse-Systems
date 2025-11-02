@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Chapter Three: The First Three Months - Organizing the Group
+permalink: /book/20-chapter-three/
+prev: /book/10-chapter-two/
+prev_title: Chapter Two: The First Month - Finding Stability in Chaos
+next: /book/30-chapter-four/
+next_title: Chapter Four: The First Year - From Group to Community
 ---
 
 ### Chapter Three: The First Three Months - Organizing the Group {#chapter-three:-the-first-three-months---organizing-the-group}

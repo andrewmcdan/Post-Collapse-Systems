@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Chapter Four: The First Year - From Group to Community
+permalink: /book/30-chapter-four/
+prev: /book/20-chapter-three/
+prev_title: Chapter Three: The First Three Months - Organizing the Group
+next: /book/40-chapter-v/
+next_title: Chapter V: Understanding the Collapse - Causes and Their Impact on Survival
 ---
 
 ### Chapter Four: The First Year - From Group to Community {#chapter-four:-the-first-year---from-group-to-community}

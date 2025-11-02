@@ -5,7 +5,10 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title>{{ page.title | default: site.title }}</title>
         {% include head-custom.html %}
-        <link rel="stylesheet" href="/assets/css/book.css" />
+        <link
+            rel="stylesheet"
+            href="{{ '/assets/css/book.css' | relative_url }}"
+        />
     </head>
     <body>
         <main>{% include book-nav.html %} {{ content }}</main>

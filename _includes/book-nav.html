@@ -1,19 +1,28 @@
-{% raw %}
 <nav class="book-nav">
-    {% if page.previous %}
-    <a class="prev" href="{{ page.previous.url }}"
-        >&larr; {{ page.previous.title }}</a
+    {% assign prev_obj = page.previous %} {% assign next_obj = page.next %} {%
+    if prev_obj %}
+    <a class="prev" href="{{ prev_obj.url | relative_url }}"
+        >&larr; {{ prev_obj.title }}</a
+    >
+    {% elsif page.prev %}
+    <a class="prev" href="{{ page.prev | relative_url }}"
+        >&larr; {{ page.prev_title | default: 'Previous' }}</a
     >
     {% else %}
     <span></span>
     {% endif %}
 
-    <a class="toc" href="/book/">Book Index</a>
+    <a class="toc" href="{{ '/book/' | relative_url }}">Book Index</a>
 
-    {% if page.next %}
-    <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &rarr;</a>
+    {% if next_obj %}
+    <a class="next" href="{{ next_obj.url | relative_url }}"
+        >{{ next_obj.title }} &rarr;</a
+    >
+    {% elsif page.next %}
+    <a class="next" href="{{ page.next | relative_url }}"
+        >{{ page.next_title | default: 'Next' }} &rarr;</a
+    >
     {% else %}
     <span></span>
     {% endif %}
 </nav>
-{% endraw %}

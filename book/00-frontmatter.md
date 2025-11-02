@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Front Matter
+permalink: /book/00-frontmatter/
+next: /book/10-chapter-two/
+next_title: Chapter Two: The First Month - Finding Stability in Chaos
 ---
 
 # Post-Collapse Systems

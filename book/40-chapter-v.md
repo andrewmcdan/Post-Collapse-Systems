@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Chapter V: Understanding the Collapse - Causes and Their Impact on Survival
+permalink: /book/40-chapter-v/
+prev: /book/30-chapter-four/
+prev_title: Chapter Four: The First Year - From Group to Community
 ---
 
 ### Chapter V: Understanding the Collapse - Causes and Their Impact on Survival {#chapter-v:-understanding-the-collapse---causes-and-their-impact-on-survival}
@@ -3085,7 +3088,7 @@ To prevent power consolidation, elections and term limits ensure fresh leadershi
     -   Any member of the community can call for a removal vote if they gather 20% signatures.
     -   A 60% community vote removes a Council member.
 -   For the Militia Commander:
-    -   The Council can remove the Commander with a  majority vote.
+    -   The Council can remove the Commander with a majority vote.
     -   The community can remove the Commander with a 60% vote.
 -   For Corruption or Treason:
     -   If a leader is found guilty of abuse of power, bribery, or treason, they may be impeached and exiled.
@@ -3284,7 +3287,7 @@ Since traditional currency is no longer viable, the community will use a structu
 
 -   A designated Trade Team will handle all negotiations to prevent exploitation.
 -   Standardized Trade Values (Based on Item Scarcity & Need)
-    -   Example: 1 rifle  50 pounds of preserved food  10 medical kits
+    -   Example: 1 rifle 50 pounds of preserved food 10 medical kits
 -   Trade Agreements Must Be Approved By The Council.
 -   No individual member may trade with outsiders without authorization.
 

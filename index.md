@@ -2,9 +2,11 @@
 layout: default
 title: Post Collapse Systems
 permalink: /
-redirect_to: /Post-Collapse-Systems/book/
 ---
+
+<meta http-equiv="refresh" content="0;url={{ '/book/' | relative_url }}">
+<script>location.replace("{{ '/book/' | relative_url }}")</script>
 
 # Redirecting to the Book…
 
-If you are not redirected automatically, click here: [Book Landing](/Post-Collapse-Systems/book/)
+If you are not redirected automatically, click here: [Book Landing]({{ '/book/' | relative_url }})
