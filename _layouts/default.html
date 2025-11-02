@@ -1,14 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>{{ page.title | default: site.title }}</title>
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <main>
-      {{ content }}
-    </main>
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>{{ page.title | default: site.title }}</title>
+        {% include head-custom.html %}
+        <link rel="stylesheet" href="/assets/css/book.css" />
+    </head>
+    <body>
+        <main>{% include book-nav.html %} {{ content }}</main>
+    </body>
 </html>
