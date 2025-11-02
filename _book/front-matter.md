@@ -2,6 +2,7 @@
 layout: default
 title: Front Matter
 permalink: /book/front-matter/
+order: 1
 next: /book/the-first-month/
 next_title: Chapter Two: The First Month - Finding Stability in Chaos
 ---
