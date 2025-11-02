@@ -2,7 +2,7 @@
 layout: default
 title: Post Collapse Systems
 permalink: /
-redirect_to: /book/
+redirect_to: /Post-Collapse-Systems/book/
 ---
 
 # Redirecting to the Book…
