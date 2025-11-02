@@ -1,0 +1,65 @@
+name: Build Book PDF & Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, master ]
+    paths-ignore:
+      - 'book/Fieldcraft-for-the-Unplanned.pdf'
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    # Use a container image that includes pandoc + LaTeX
+    container:
+      image: pandoc/latex:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build single PDF with Pandoc
+        run: |
+          mkdir -p dist
+          pandoc \
+            --from=markdown+yaml_metadata_block \
+            --resource-path=book \
+            --toc --toc-depth=2 \
+            --top-level-division=chapter \
+            --pdf-engine=xelatex \
+            --number-sections \
+            -V documentclass=book \
+            -V classoption=oneside,openany \
+            -V geometry:margin=1in \
+            -V colorlinks=true -V linkcolor=blue \
+            --metadata=title:"Fieldcraft for the Unplanned" \
+            --metadata=subtitle:"A Practical Guide to Emergencies & Survival" \
+            -o dist/Fieldcraft-for-the-Unplanned.pdf \
+            $(tr '\n' ' ' < book/manifest.txt)
+
+      - name: Build single EPUB with Pandoc
+        run: |
+          pandoc \
+            --from=markdown+yaml_metadata_block \
+            --resource-path=book \
+            --toc --toc-depth=2 \
+            --top-level-division=chapter \
+            --metadata=title:"Fieldcraft for the Unplanned" \
+            --metadata=subtitle:"A Practical Guide to Emergencies & Survival" \
+            -o dist/Fieldcraft-for-the-Unplanned.epub \
+            $(tr '\n' ' ' < book/manifest.txt)
+
+      - name: Create GitHub Release with assets
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
+        with:
+          tag_name: book-v${{ github.run_number }}
+          name: "Fieldcraft for the Unplanned — Build #${{ github.run_number }}"
+          body: |
+            Automated build of the single-file PDF and EPUB.
+            Manifest: book/manifest.txt
+          files: |
+            dist/Fieldcraft-for-the-Unplanned.pdf
+            dist/Fieldcraft-for-the-Unplanned.epub
