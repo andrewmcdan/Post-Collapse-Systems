@@ -1,3 +1,8 @@
+---
+layout: default
+title: Chapter Two: The First Month - Finding Stability in Chaos
+---
+
 ### Chapter Two: The First Month - Finding Stability in Chaos {#chapter-two:-the-first-month---finding-stability-in-chaos}
 
 #### Introduction {#introduction-1}

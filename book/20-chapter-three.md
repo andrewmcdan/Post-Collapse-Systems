@@ -1,3 +1,8 @@
+---
+layout: default
+title: Chapter Three: The First Three Months - Organizing the Group
+---
+
 ### Chapter Three: The First Three Months - Organizing the Group {#chapter-three:-the-first-three-months---organizing-the-group}
 
 #### Introduction {#introduction-2}

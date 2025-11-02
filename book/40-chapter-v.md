@@ -1,3 +1,8 @@
+---
+layout: default
+title: Chapter V: Understanding the Collapse - Causes and Their Impact on Survival
+---
+
 ### Chapter V: Understanding the Collapse - Causes and Their Impact on Survival {#chapter-v:-understanding-the-collapse---causes-and-their-impact-on-survival}
 
 #### Section 1: The Type of Collapse Determines the Initial Challenges {#section-1:-the-type-of-collapse-determines-the-initial-challenges}

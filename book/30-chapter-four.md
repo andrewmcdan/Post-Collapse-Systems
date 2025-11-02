@@ -1,3 +1,8 @@
+---
+layout: default
+title: Chapter Four: The First Year - From Group to Community
+---
+
 ### Chapter Four: The First Year - From Group to Community {#chapter-four:-the-first-year---from-group-to-community}
 
 #### Introduction {#introduction-3}
