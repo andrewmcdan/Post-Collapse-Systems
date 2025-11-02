@@ -1,0 +1,8 @@
+title: Survival Guide (bootstrap)
+description: Minimal Jekyll book structure for bootstrapping a new project
+baseurl: ""
+url: ""
+markdown: kramdown
+theme: minima
+
+enum_chapters: true

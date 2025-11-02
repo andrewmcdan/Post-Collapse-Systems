@@ -1,0 +1,5 @@
+# Minimal book manifest
+
+_parts/
+  00-frontmatter.md
+  10-mainmatter.md
